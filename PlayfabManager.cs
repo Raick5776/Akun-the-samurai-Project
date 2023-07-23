@@ -103,19 +103,5 @@ public class PlayfabManager : MonoBehaviour
     }
 
 
-    /*
-    public void SendLeaderboard(int score){
-        var request = new UpdatePlayerStatisticsRequest { 
-            Statistics = new List<StatisticUpdate>{
-                new StatisticUpdate { 
-                    StatisticName = "PlatformScore" ,
-                    Value = score
-                }
-            }
-        };
-        PlayFabClientAPI.UpdatePlayerStatistics(request , OnleaderboardUpdate , OnError);
-    }
-    void OnleaderboardUpdate(UpdatePlayerStatisticsResult result){
-        Debug.Log("Successo LeaderBoard");
-    } */
+   
 }
